@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,400i,500,500i,600,600i,700,700i");  
+.body{
+	font-family: 'Archivo Narrow', sans-serif;
+    overflow-x: hidden;
+}
+p {
+    font-family: "Archivo Narrow", sans-serif;
+    color: #5f5f5f;
+    font-size: 15px;
+    line-height: 2;
+    font-weight: 400;
+}
+      
+h1,h2,h3,h4,h5,h6{
+    font-family: "Archivo Narrow", sans-serif;
+    color: #000000;
+    line-height: 1.3;
+    font-weight: 700; 
+        
+}
+@media (max-width:1000px){
+p{
+    font-size: 13px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+}
+}
+
+/* Preloader **/
+.preloader{
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    position: fixed;
+}
+
+
+/* ### Navigation ### */    
+.navbar-brand  span{
+	color: #fed136;
+    font-size:25px;
+    font-weight:700;
+    letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+	color: #fff;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+.navbar-brand:hover {
+	color: #fed136;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#fed136;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #fed136;
+}
+.nav{
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+}
+@media (max-width:767px){
+.navbar-nav{
+    background-color:#191919;
+    color:#fff;
+    z-index:1;
+    margin-top:5px;
+ }
+}
+@media (max-width:1000px){
+    .navbar-brand  span{
+        font-size:20px;
+        font-weight:500;
+    }
+    .navbar-brand {
+        font-size:20px;
+        font-weight:500;
+    }
+    .navbar-brand:hover {
+        font-size:20px;
+        font-weight:500;
+    }
+    .navbar-nav .nav-item .nav-link{
+        padding: 1.1em 1em!important;
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+    
+	
+.shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #191919;
+}
+
+
+/* ### Banner Section ### */
+.banner{
+	text-align: center;
+    color: #fff;
+    height: 700px;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+.banner-text{
+	padding:300px 0 150px 0;
+}
+.banner-heading{
+	font-family: 'Lobster', cursive;
+	font-size: 75px;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 20px;
+	color:#fff;
+}
+.banner-sub-heading{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 33px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 40px;
+	color:#fff;
+}
+
+.btn-banner{
+	padding:5px 20px;
+	border-radius:10px;
+	font-weight:700;
+	line-height:1.5;
+	text-align:center;
+	color:#fff;
+	text-transform:uppercase;
+}
+@media (max-width:620px){
+.banner{
+    height:450px;
+}
+.banner-text{
+	padding:180px 0 150px 0;
+}
+.banner-heading{
+	font-size: 33px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+	font-size: 15px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-bottom: 20px;
+}
+}
+@media screen and (min-width:621px) and (max-width:1200px){
+.banner{
+    height: 550px;
+}
+.banner-text{
+    padding:250px 0 150px 0;
+}
+.banner-heading{
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.banner-sub-heading{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+ }
+}
+
+
+/* About */
+.about-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    text-align:center;
+    z-index: 1;    
+}
+.about-section .title{
+    padding-bottom: 10px;
+    position: relative;
+    z-index: 1; 
+}
+
+/* Latest Songs Area */
+.music-area.has-fluid {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    position: relative;
+    text-align: center;
+}
+.song-area {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+.song-area img {
+    width: 100%;
+    height: 150px;
+}  
+.song-area .song-img {
+    position: relative;
+    z-index: 1;
+}
+.song-area .song-info {
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.loadmore {
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    min-width: 212px;
+    height: 49px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 47px;
+    font-weight: 700;
+}
+    .loadmore i {
+      margin-left: 5px;
+}
+    .loadmore:hover, .loadmore:focus{
+      font-size: 16px;
+      font-weight: 700;
+      background-color: #000000;
+      color: #fff;
+}
+    
+
+/* Contact Area */
+.contact-area{
+    padding-bottom: 100px;
+}
+.section-heading{
+    padding: 70px  0  50px;
+    
+}
+.submit{
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    min-width: 212px;
+    height: 49px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.submit i {
+    margin-left: 5px;
+}
+  .submit:hover, .submit:focus{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #000000;
+    color: #fff;
+}
+
+/*Connect*/
+.connect{
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.subscribe{
+    margin:0 auto;
+    padding-top: 50px;
+}
+
+.footer {
+    padding:40px 0;
+    color:#4b4c4d;
+  }
+.footer .social:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.footer .social {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+   -o-transition-duration: 0.5s;
+}
+  
+.footer ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer li {
+    padding:0 10px;
+}
+  
+.footer ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer ul a:hover {
+   opacity:1;
+}
+  .footer .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:12px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  
+/* #### music page #### */
+
+/* Banner img */
+.banner-music{
+    text-align: center;
+    color: #fff;
+    height: 200px;
+   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* Music download */
+.music-download{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.download-section{
+    padding-bottom: 90px;
+}
+.item{
+    padding-top: 20px;
+}
+.card{
+    height: 176px;
+    width: 580px;
+    margin: 0 auto;
+}
+.card img{
+    height: 174px;
+    width:200px;
+}
+.card .paragraph{
+    padding-top: 10px;
+    text-align: center;
+    font-size:12.5px;
+}
+.card .audio{
+    padding-top:10px;
+    width:250px;
+}
+
+@media (max-width:620px){
+    .banner-music{
+        height: 150px;
+    }    
+    .card{
+        height: 310px;
+        width: 252px;
+    }
+    .card img{
+        height: 130px;
+        width:250px;
+    }
+    .card .paragraph{
+        padding:150px 0;
+        font-size:12px;
+    }
+    .card .audio{
+        width:210px;
+    }
+}
+
+/* #### contact page #### */
+.contact-area{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+.address,.email,.phone {
+  text-align: center;
+  background: #eaede6;
+  padding: 20px 0 40px 0;
+  margin-bottom: 20px;
+}
+.address i,.email i,.phone i {
+  font-size: 45px;
+  color: #00b0f0;
+}
+.address h5,.email h5,.phone h5 {
+  font-size: 16px;
+  line-height: 1.4;
+}
+.address-details {
+  padding-top: 70px;
+}
+.form-area, .map-area{
+  padding-top: 30px;
+  text-align: left;
+}
+.iframe{
+    width: 600px;
+    height: 400px;
+}
+
+/* #### Gallery page #### */
+.gallery-title
+{
+    font-size: 36px;
+    color: rgb(16, 19, 16);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+    padding-top: 50px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.gallery_product
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.gallery_product:hover{
+
+}
+.gallery_product img{
+    box-shadow: 0px 16px 10px -8px rgb(0, 0, .3);
+    transition: all 300ms ease-in-out;
+    width: 250px;
+    height: 250px;
+}
+.gallery_product img:hover{
+    transform: translate(0, -7px);
+    box-shadow: 0px 32px 25px -15px rgb(0, 0, .05);
+}
