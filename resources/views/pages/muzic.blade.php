@@ -154,9 +154,9 @@
                       <td>{{$song->artist}}</td>
                       <td>{{$song->genre}}</td>
                       <td>{{$song->released}}</td>
-                      <td><img src="/storage/images/{{$song->image}}" alt="" style="width:50px;height:50px;"></td>
+                      <td><img src="images/{{$song->image}}" alt="" style="width:50px;height:50px;"></td>
                       <td><audio preload="auto" controls class="audio" style="width:150px;height:30px;">
-                        <source src="/storage/songs/{{$song->audio}}">
+                        <source src="songs/{{$song->audio}}">
                         </audio>
                       </td>
                       <td>{{$song->updated_at}}</td>                      

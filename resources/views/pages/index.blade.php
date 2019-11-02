@@ -118,7 +118,7 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                     <div class="song-area wow fadeInUp" data-wow-delay="500ms">
                         <div class="song-img">
-                            <img src="storage/images/{{$song->image}}" alt="">
+                            <img src="images/{{$song->image}}" alt="">
                         </div>
                         <div class="song-info">
                             <a href="/music">

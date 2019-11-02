@@ -25,14 +25,14 @@
                 <div class="col-12">
                     <div class="card wow fadeInUp" data-wow-delay="500ms">
                        <div class="card-horizontal">   
-                           <img class="float-left" src="/storage/images/{{$song->image}}" alt="">
+                           <img class="float-left" src="images/{{$song->image}}" alt="">
                               <P class="paragraph">
                               <b>Song title:</b> {{$song->title}}    <br>
                               <b>Artist:</b> {{$song->artist}}      <br>
                               <b>Genre:</b> {{$song->genre}}        <br>
                               <b>Released:</b> {{$song->released}}  <br>
                                 <audio preload="auto" controls class="audio">
-                                <source src="/storage/songs/{{$song->audio}}">
+                                <source src="songs/{{$song->audio}}">
                                 </audio>
                               </P>
                         </div>
