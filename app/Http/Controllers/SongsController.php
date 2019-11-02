@@ -27,13 +27,13 @@ class SongsController extends Controller
         
         $image = $request->file('image');
         $imageName = $request->image->getClientOriginalName();
-        $path = 'storage/images';
+        $path = 'images';
 
         $image->move($path, $imageName);
 
         $audio = $request->file('audio');
         $audioName = $request->audio->getClientOriginalName();
-        $path = 'storage/songs';
+        $path = 'songs';
 
         $audio->move($path, $audioName);
         
