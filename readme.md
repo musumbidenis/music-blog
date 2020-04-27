@@ -1,4 +1,4 @@
-# Kaka Dave Music
+# Kaka Dave Music :musical_note:
 
 **Kaka Dave Music** website is a dynamic web application which serves to promote and show the world the great music work of Davis Kahindi alias Kaka Dave. You can find the artist bio from <a href="http://music-blog.musumbidenis.co.ke" rel="nofollow">here</a>
 <hr>
